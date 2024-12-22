@@ -1,0 +1,56 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    color: hsl(20, 100%, 50%);
+    font-weight: bold;
+}
+/* Gradient background for navbar */
+.bg-gradient {
+    background: linear-gradient(45deg, #007bff, #6610f2);
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+    font-size: 1.5rem;
+    color: rgb(99, 48, 48) !important;
+    letter-spacing: 1px;
+}
+
+/* Navbar link styles */
+.nav-link {
+    color: #904e4ecc !important;
+    font-size: 1rem;
+    margin-right: 15px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: hsl(68, 58%, 48%) !important;
+    text-decoration: underline;
+}
+
+/* Active link styling */
+.nav-link.active {
+    color: hsl(0, 72%, 45%) !important;
+    font-weight: bold;
+}
+
+/* Navbar shadow */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+}
+
+
+/* Navbar toggler styling */
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%281255,255,255,0.8%29' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
